@@ -14,7 +14,7 @@ filetype indent on
 autocmd vimenter * wincmd p
 let g:NERDTreeWinPos = "right"
 
-" toggle nerdtree
+" toggle nerdtree with ctrl + n
 map <C-n> :NERDTreeToggle<CR>
 
 " make hidden files visible in NERDTree
