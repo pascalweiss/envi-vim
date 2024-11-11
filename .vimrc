@@ -24,7 +24,7 @@ let NERDTreeShowHidden=1
 let NERDTreeMinimalUI = 1
 let NERDTreeDirArrows = 1
 
-
+" This line sets the working directory to the directory of the current file when Vim starts.
 autocmd vimenter * silent! lcd %:p:h
 
 " close nerdtree when it is the last window
