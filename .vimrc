@@ -1,8 +1,5 @@
 execute pathogen#infect()
 
-" Use 4 spaces for tab
-set tabstop=2 softtabstop=2 expandtab shiftwidth=2
-
 " Ensures Vim uses filetype plugins
 filetype plugin on
 " Enable indentation
@@ -83,4 +80,16 @@ set smartcase
 " When you want to paste large blocks of code into vim, press F2 before you 
 " paste. at the bottom you should see -- Insert (paste) --
 set pastetoggle=<F2>
-set clipboard=unnamed
+
+
+" Do not overwrite my copybuffer
+set clipboard=
+
+" Use 4 spaces for tab
+set expandtab
+set tabstop=2
+set softtabstop=2
+set shiftwidth=2
+
+
+
